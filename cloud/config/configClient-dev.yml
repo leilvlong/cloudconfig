@@ -1,1 +1,26 @@
-word: helloword
+mysql:
+  datasource:
+    test1:
+      url: jdbc:mysql://localhost:3306/datawarehouse1?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: '{cipher}AQCztIfLC5jeJ3KLQwU2OHd4eGneh0r9bFe2mq+trLsIXAwHJAa0JST+H75E+2PjIVmyKuSVkj1Rl2/leDrPfbDt+Wwhkz+Q51KOOuVRdV5d8eALySbn1CRnxJvoaHi7zoTzplcnDfQtXZhkKxS/q912MnxIPTlOw70qTVHDDxkcqjHr5Ny6ahSuwWJaU79gpiUb/pxXZ/jZP5tfPFmi6QoWUOpGQ21ShOxjW16G1wAeDmWmfZBWZj/0fdRjpBUrjCZW667isdDDCgV0q5V3nWTySHx2ZkRG+vFRgYEYEhO2fMMEL7w7q/LZSNvBL7wBI/OJPha9s+4b6WYUxLNtUnfw2Xchxn3O6nMjxaGiTefalpb/OgDrouk4RUtUxRNi/is='
+      minPoolSize: 3
+      maxPoolSize: 25
+      maxLifetime: 20000
+      borrowConnectionTimeout: 30
+      loginTimeout: 30
+      maintenanceInterval: 60
+      maxIdleTime: 60
+      testQuery: select 1
+    test2:
+      url: jdbc:mysql://localhost:3306/datawarehouse1?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: '{cipher}AQCztIfLC5jeJ3KLQwU2OHd4eGneh0r9bFe2mq+trLsIXAwHJAa0JST+H75E+2PjIVmyKuSVkj1Rl2/leDrPfbDt+Wwhkz+Q51KOOuVRdV5d8eALySbn1CRnxJvoaHi7zoTzplcnDfQtXZhkKxS/q912MnxIPTlOw70qTVHDDxkcqjHr5Ny6ahSuwWJaU79gpiUb/pxXZ/jZP5tfPFmi6QoWUOpGQ21ShOxjW16G1wAeDmWmfZBWZj/0fdRjpBUrjCZW667isdDDCgV0q5V3nWTySHx2ZkRG+vFRgYEYEhO2fMMEL7w7q/LZSNvBL7wBI/OJPha9s+4b6WYUxLNtUnfw2Xchxn3O6nMjxaGiTefalpb/OgDrouk4RUtUxRNi/is='
+      minPoolSize: 3
+      maxPoolSize: 25
+      maxLifetime: 20000
+      borrowConnectionTimeout: 30
+      loginTimeout: 30
+      maintenanceInterval: 60
+      maxIdleTime: 60
+      testQuery: select 1
